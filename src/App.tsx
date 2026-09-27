@@ -162,15 +162,29 @@ export default function App() {
     );
   }
 
+  // Quick switch search state
+  const [switchSearchQuery, setSwitchSearchQuery] = useState('');
+
   // 3. If SALES employee is logged in
+  const filteredSwitchEmployees = useMemo(() => {
+    if (!switchSearchQuery.trim()) return employees;
+    const q = switchSearchQuery.toLowerCase().trim();
+    return employees.filter(
+      (e) => e.nama.toLowerCase().includes(q) || e.nip.toLowerCase().includes(q)
+    );
+  }, [employees, switchSearchQuery]);
+
   return (
-    <div id="app-root" className="min-h-screen bg-slate-100 flex flex-col font-sans antialiased text-slate-800">
+    <div id="app-root" className="min-h-screen bg-slate-50/80 flex flex-col font-sans antialiased text-slate-800">
       {/* Top Header with Sales Name & NIP */}
       <Header
         employee={currentEmployee}
         onOpenSlipGaji={() => setShowSlipGaji(true)}
         onLogout={handleLogout}
-        onSwitchSales={() => setShowSwitchModal(true)}
+        onSwitchSales={() => {
+          setSwitchSearchQuery('');
+          setShowSwitchModal(true);
+        }}
         onSwitchToAdmin={handleAdminLogin}
         onOpenImportModal={() => setShowImportModal(true)}
         dataSourceLabel={dataState.sourceLabel}
@@ -193,11 +207,12 @@ export default function App() {
           records={currentEmployee.records}
           selectedType={selectedType}
           onSelectType={setSelectedType}
+          bonusStoreAmount={currentEmployee.bonusStoreAmount}
         />
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
+      <footer className="border-t border-slate-200/90 bg-white py-6 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             <FileSpreadsheet className="w-4 h-4 text-emerald-600" />
@@ -250,13 +265,20 @@ export default function App() {
       {showSwitchModal && (
         <div
           id="switch-sales-modal"
-          className="fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-xs flex items-center justify-center p-4"
+          className="fixed inset-0 z-50 bg-slate-950/60 backdrop-blur-xs flex items-center justify-center p-4"
         >
-          <div className="bg-white w-full max-w-md rounded-2xl shadow-xl border border-slate-200 p-6 space-y-4 max-h-[85vh] flex flex-col">
+          <div className="bg-white w-full max-w-md rounded-2xl shadow-2xl border border-slate-200 p-6 space-y-4 max-h-[85vh] flex flex-col">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <Users className="w-5 h-5 text-indigo-600" />
-                <h3 className="font-bold text-slate-900 text-base">Ganti Akun Sales</h3>
+              <div className="flex items-center gap-2.5">
+                <div className="p-2 rounded-xl bg-indigo-50 text-indigo-700">
+                  <Users className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-slate-900 text-base">Ganti Akun Sales</h3>
+                  <p className="text-[11px] text-slate-400">
+                    {employees.length} rekan sales terdaftar
+                  </p>
+                </div>
               </div>
               <button
                 type="button"
@@ -266,35 +288,50 @@ export default function App() {
                 <X className="w-5 h-5" />
               </button>
             </div>
-            <p className="text-xs text-slate-500">
-              Pilih rekan sales lain ({employees.length} terdaftar) untuk melihat rincian akumulasi insentif dan slip gaji mereka:
-            </p>
+
+            {/* Quick Search in modal */}
+            <div>
+              <input
+                type="text"
+                value={switchSearchQuery}
+                onChange={(e) => setSwitchSearchQuery(e.target.value)}
+                placeholder="Cari nama atau NIP sales..."
+                className="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white"
+              />
+            </div>
+
             <div className="overflow-y-auto space-y-1.5 divide-y divide-slate-100 flex-1 pr-1">
-              {employees.map((emp) => (
-                <button
-                  key={emp.nip}
-                  type="button"
-                  onClick={() => handleSwitchSales(emp)}
-                  className={`w-full text-left p-3 rounded-xl flex items-center justify-between transition-colors cursor-pointer ${
-                    currentEmployee.nip === emp.nip
-                      ? 'bg-indigo-50 border border-indigo-200 text-indigo-900 font-semibold'
-                      : 'hover:bg-slate-50 text-slate-700'
-                  }`}
-                >
-                  <div>
-                    <div className="font-mono text-xs text-indigo-700 font-bold">{emp.nip}</div>
-                    <div className="text-sm font-medium">{emp.nama}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="font-mono font-bold text-emerald-700 text-sm">
-                      {formatRupiah(emp.totalInsentif)}
+              {filteredSwitchEmployees.length === 0 ? (
+                <div className="py-6 text-center text-xs text-slate-400">
+                  Tidak ditemukan sales dengan nama atau NIP "{switchSearchQuery}"
+                </div>
+              ) : (
+                filteredSwitchEmployees.map((emp) => (
+                  <button
+                    key={emp.nip}
+                    type="button"
+                    onClick={() => handleSwitchSales(emp)}
+                    className={`w-full text-left p-3 rounded-xl flex items-center justify-between transition-all cursor-pointer ${
+                      currentEmployee.nip === emp.nip
+                        ? 'bg-indigo-50 border border-indigo-200 text-indigo-900 font-semibold'
+                        : 'hover:bg-slate-50 text-slate-700'
+                    }`}
+                  >
+                    <div>
+                      <div className="font-mono text-xs text-indigo-700 font-bold">{emp.nip}</div>
+                      <div className="text-sm font-medium">{emp.nama}</div>
                     </div>
-                    <div className="text-[11px] text-slate-400">
-                      {emp.transactionCount} transaksi
+                    <div className="text-right">
+                      <div className="font-mono font-bold text-emerald-700 text-sm">
+                        {formatRupiah(emp.totalInsentif)}
+                      </div>
+                      <div className="text-[11px] text-slate-400">
+                        {emp.transactionCount} transaksi
+                      </div>
                     </div>
-                  </div>
-                </button>
-              ))}
+                  </button>
+                ))
+              )}
             </div>
           </div>
         </div>

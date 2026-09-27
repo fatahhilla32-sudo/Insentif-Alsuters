@@ -147,17 +147,20 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   return (
     <div
       id="admin-dashboard-root"
-      className="min-h-screen bg-slate-100 flex flex-col font-sans antialiased text-slate-800"
+      className="min-h-screen bg-slate-50/80 flex flex-col font-sans antialiased text-slate-800"
     >
-      {/* Top micro bar */}
-      <div className="bg-slate-900 text-slate-300 text-xs px-4 sm:px-8 py-1.5 flex flex-wrap justify-between items-center gap-2">
+      {/* Top micro bar with deep midnight tone */}
+      <div className="bg-slate-950 text-slate-300 text-xs px-4 sm:px-8 py-2 flex flex-wrap justify-between items-center gap-2 border-b border-slate-800">
         <div className="flex items-center gap-2">
-          <span className="inline-block w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400"></span>
+          </span>
           <span className="font-bold text-amber-300">PORTAL MANAJER / ADMINISTRATOR</span>
-          <span className="text-slate-600 hidden sm:inline">|</span>
+          <span className="text-slate-700 hidden sm:inline">|</span>
           <span className="text-slate-400 text-[11px] hidden sm:inline">
             User ID: <strong className="text-white font-mono">mgr35</strong> • Sheet:{' '}
-            <strong>INSENTIF AGUSTUS</strong> (Cell A1:G11068) + <strong>Bonus Store</strong> (A1:Z Dinamis)
+            <strong className="text-emerald-400">INSENTIF AGUSTUS</strong> (Cell A1:G11068) + <strong className="text-amber-400">Bonus Store</strong> (A1:Z Dinamis)
           </span>
         </div>
 
@@ -165,40 +168,40 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           <button
             type="button"
             onClick={onOpenImportModal}
-            className="hover:text-white transition-colors text-indigo-400 flex items-center gap-1 cursor-pointer underline underline-offset-2"
+            className="hover:text-white transition-colors text-indigo-400 flex items-center gap-1 cursor-pointer font-medium"
           >
-            <FileSpreadsheet className="w-3.5 h-3.5" />
+            <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-400" />
             <span>Kelola / Sinkron Data</span>
           </button>
-          <span className="text-slate-600">|</span>
+          <span className="text-slate-700">|</span>
           <button
             type="button"
             onClick={onLogout}
-            className="hover:text-rose-400 transition-colors flex items-center gap-1 text-slate-300 cursor-pointer"
+            className="hover:text-rose-400 transition-colors flex items-center gap-1 text-slate-300 cursor-pointer font-medium"
           >
-            <LogOut className="w-3.5 h-3.5" />
+            <LogOut className="w-3.5 h-3.5 text-rose-400" />
             <span>Keluar</span>
           </button>
         </div>
       </div>
 
       {/* Admin Hero Header */}
-      <header className="bg-white border-b border-slate-200 shadow-xs">
+      <header className="bg-white border-b border-slate-200/90 shadow-2xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-amber-100 text-amber-900 border border-amber-300">
+                <span className="px-2.5 py-0.5 rounded-lg text-xs font-mono font-bold bg-amber-100 text-amber-900 border border-amber-300">
                   Role: Administrator / Manager (mgr35)
                 </span>
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 border border-indigo-200">
+                <span className="px-2.5 py-0.5 rounded-lg text-xs font-semibold bg-indigo-50 text-indigo-700 border border-indigo-200">
                   Periode Agustus 2026
                 </span>
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
+                <span className="px-2.5 py-0.5 rounded-lg text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
                   Data Digabungkan & Tervalidasi
                 </span>
               </div>
-              <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+              <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
                 Rekapitulasi Insentif Sales & Bonus Store
               </h1>
               <p className="text-xs sm:text-sm text-slate-500 mt-1 flex flex-wrap items-center gap-2">
