@@ -1,0 +1,1110 @@
+{
+  "spreadsheetId": "10TgEJyFSJkD6yfV8t_QgGH9jJJ_NppIXlCUsvVuB6lY",
+  "sheetName": "Bonus Store",
+  "gid": "1621745252",
+  "range": "'Bonus Store'!A1:Z",
+  "headers": [
+    "nip",
+    "nama",
+    "bonus"
+  ],
+  "totalRows": 219,
+  "rows": [
+    {
+      "nip": "116405",
+      "nama": "PIRMAN ALAMSYAH",
+      "bonus": 2058617
+    },
+    {
+      "nip": "139563",
+      "nama": "DEAN RIZKYANDANI",
+      "bonus": 2058617
+    },
+    {
+      "nip": "94992",
+      "nama": "CIPTO NUGROHO.",
+      "bonus": 1921376
+    },
+    {
+      "nip": "101861",
+      "nama": "IRONA WULANDARI",
+      "bonus": 1921376
+    },
+    {
+      "nip": "122147",
+      "nama": "KHOMARUDIN",
+      "bonus": 1921376
+    },
+    {
+      "nip": "94682",
+      "nama": "ANDREI HILCES.",
+      "bonus": 1695205
+    },
+    {
+      "nip": "106477",
+      "nama": "BAYU SUKANDANI",
+      "bonus": 1646894
+    },
+    {
+      "nip": "118286",
+      "nama": "JATMIKO EDY TANTOMO",
+      "bonus": 1646894
+    },
+    {
+      "nip": "90862",
+      "nama": "SUPRIYADI",
+      "bonus": 1578273
+    },
+    {
+      "nip": "94871",
+      "nama": "BENNI ARIA CITRA PERMANA.",
+      "bonus": 1578273
+    },
+    {
+      "nip": "131011",
+      "nama": "IVAN MUSTASVA ARIANTO",
+      "bonus": 1578273
+    },
+    {
+      "nip": "134298",
+      "nama": "CHAIRUL IMAN",
+      "bonus": 1578273
+    },
+    {
+      "nip": "95386",
+      "nama": "ERWIN SYAMSUDIN.",
+      "bonus": 1509652
+    },
+    {
+      "nip": "101853",
+      "nama": "RIKI SUBAGJA",
+      "bonus": 1438356
+    },
+    {
+      "nip": "103337",
+      "nama": "PRIMA MAELANA",
+      "bonus": 1438356
+    },
+    {
+      "nip": "106202",
+      "nama": "PEPI FIRDAUS",
+      "bonus": 1438356
+    },
+    {
+      "nip": "106399",
+      "nama": "PRATAMA SUKARNO PUTRA",
+      "bonus": 1438356
+    },
+    {
+      "nip": "106441",
+      "nama": "CECEP RIKI",
+      "bonus": 1438356
+    },
+    {
+      "nip": "106504",
+      "nama": "WAHYU SUSANTO",
+      "bonus": 1438356
+    },
+    {
+      "nip": "148068",
+      "nama": "ZAM ZAM SALEHUDIN AHMADI",
+      "bonus": 1438356
+    },
+    {
+      "nip": "171707",
+      "nama": "PUTRI AYU NAIBAHO",
+      "bonus": 1438356
+    },
+    {
+      "nip": "176136",
+      "nama": "RIDHO GUSTIANTORO",
+      "bonus": 1438356
+    },
+    {
+      "nip": "176137",
+      "nama": "RAHMAT ADITYA",
+      "bonus": 1438356
+    },
+    {
+      "nip": "194974",
+      "nama": "DANIEL FEBRIAN",
+      "bonus": 1438356
+    },
+    {
+      "nip": "5470",
+      "nama": "ALI SOPJAN",
+      "bonus": 1372411
+    },
+    {
+      "nip": "70089",
+      "nama": "HANNY RUDI RIANTO",
+      "bonus": 1372411
+    },
+    {
+      "nip": "108392",
+      "nama": "SYAFRIANSYAH",
+      "bonus": 1372411
+    },
+    {
+      "nip": "130203",
+      "nama": "LISTANTO",
+      "bonus": 1372411
+    },
+    {
+      "nip": "106531",
+      "nama": "NURJAYA",
+      "bonus": 1303791
+    },
+    {
+      "nip": "121708",
+      "nama": "SHELI MIGKA",
+      "bonus": 1303791
+    },
+    {
+      "nip": "112669",
+      "nama": "DWI APRINA",
+      "bonus": 1284246
+    },
+    {
+      "nip": "182106",
+      "nama": "YOGA MATORIS",
+      "bonus": 1284246
+    },
+    {
+      "nip": "183303",
+      "nama": "ABIL DURAHMAN",
+      "bonus": 1284246
+    },
+    {
+      "nip": "96814",
+      "nama": "ARIE SURIANTO.",
+      "bonus": 1235170
+    },
+    {
+      "nip": "104140",
+      "nama": "VICKY ALFARIZI",
+      "bonus": 1235170
+    },
+    {
+      "nip": "106533",
+      "nama": "LUTFI AZIS ARRASYID",
+      "bonus": 1235170
+    },
+    {
+      "nip": "161643",
+      "nama": "MUCHAMMAD SOFYAN",
+      "bonus": 1235170
+    },
+    {
+      "nip": "108387",
+      "nama": "CHOIRUN NISSA",
+      "bonus": 1181506
+    },
+    {
+      "nip": "119861",
+      "nama": "ANGKY LESMANA",
+      "bonus": 1181506
+    },
+    {
+      "nip": "133169",
+      "nama": "PERDI DWISEPTIAN",
+      "bonus": 1181506
+    },
+    {
+      "nip": "154035",
+      "nama": "MOCHAMMAD SANWANI",
+      "bonus": 1181506
+    },
+    {
+      "nip": "162284",
+      "nama": "YUKI FHILIF SAPUTRA",
+      "bonus": 1181506
+    },
+    {
+      "nip": "165513",
+      "nama": "MOH FARHAN NURRAHMAN",
+      "bonus": 1181506
+    },
+    {
+      "nip": "171706",
+      "nama": "DISHA FEBRIANI",
+      "bonus": 1181506
+    },
+    {
+      "nip": "173609",
+      "nama": "TOMY PUTRA AGUSTIEN",
+      "bonus": 1181506
+    },
+    {
+      "nip": "175001",
+      "nama": "FERDIAWAN",
+      "bonus": 1181506
+    },
+    {
+      "nip": "175496",
+      "nama": "FATHAN AZIS",
+      "bonus": 1181506
+    },
+    {
+      "nip": "176141",
+      "nama": "MUHAMAD YUSUF",
+      "bonus": 1181506
+    },
+    {
+      "nip": "176927",
+      "nama": "ALDI",
+      "bonus": 1181506
+    },
+    {
+      "nip": "179039",
+      "nama": "RISSA NURSANTI",
+      "bonus": 1181506
+    },
+    {
+      "nip": "179583",
+      "nama": "RAMA DHANI",
+      "bonus": 1181506
+    },
+    {
+      "nip": "182109",
+      "nama": "BAGAS PRAYOGA",
+      "bonus": 1181506
+    },
+    {
+      "nip": "183729",
+      "nama": "RAFI GENTA RAMADAN",
+      "bonus": 1181506
+    },
+    {
+      "nip": "184962",
+      "nama": "RAHMAT HIDAYAT",
+      "bonus": 1181506
+    },
+    {
+      "nip": "189824",
+      "nama": "SARI NOVATIANI",
+      "bonus": 1181506
+    },
+    {
+      "nip": "194645",
+      "nama": "DEWI FEBRIANI",
+      "bonus": 1181506
+    },
+    {
+      "nip": "176730",
+      "nama": "ABDUL AZIS",
+      "bonus": 1130137
+    },
+    {
+      "nip": "195002",
+      "nama": "DESTA PUJA DINATA",
+      "bonus": 1130137
+    },
+    {
+      "nip": "195739",
+      "nama": "DIKI WAHYUDI",
+      "bonus": 1130137
+    },
+    {
+      "nip": "188489",
+      "nama": "SUDIARTO AGUS NUR ROHMAN",
+      "bonus": 1078767
+    },
+    {
+      "nip": "101172",
+      "nama": "RIZKY BUDI PRASTYA",
+      "bonus": 1027397
+    },
+    {
+      "nip": "183726",
+      "nama": "FAJRI SURYA RAMADHAN",
+      "bonus": 1027397
+    },
+    {
+      "nip": "185551",
+      "nama": "DICKY SETIAWAN",
+      "bonus": 1027397
+    },
+    {
+      "nip": "191316",
+      "nama": "AGUNG PERMADI",
+      "bonus": 1027397
+    },
+    {
+      "nip": "194646",
+      "nama": "ADITYA KUSUMA YUDISTIRA",
+      "bonus": 1027397
+    },
+    {
+      "nip": "195855",
+      "nama": "BAGUS PRAKOSO",
+      "bonus": 1027397
+    },
+    {
+      "nip": "180432",
+      "nama": "AGUSTIANSYAH",
+      "bonus": 976027
+    },
+    {
+      "nip": "98457",
+      "nama": "SANDI JATNIKA",
+      "bonus": 960688
+    },
+    {
+      "nip": "103408",
+      "nama": "DODI MISBAHUDIN",
+      "bonus": 960688
+    },
+    {
+      "nip": "96802",
+      "nama": "MUHAMMAD ADUN",
+      "bonus": 924657
+    },
+    {
+      "nip": "117452",
+      "nama": "DODI SANMARTIN",
+      "bonus": 924657
+    },
+    {
+      "nip": "160429",
+      "nama": "BAYU CAHYO HUTOYO",
+      "bonus": 924657
+    },
+    {
+      "nip": "162604",
+      "nama": "RICKY SUBAGJA",
+      "bonus": 924657
+    },
+    {
+      "nip": "168289",
+      "nama": "GABRIEL SEBASTIAN JAMES UMBOH",
+      "bonus": 924657
+    },
+    {
+      "nip": "171995",
+      "nama": "GALUH DEWI ANJANI",
+      "bonus": 924657
+    },
+    {
+      "nip": "172000",
+      "nama": "AZRIM ANGKONI",
+      "bonus": 924657
+    },
+    {
+      "nip": "174457",
+      "nama": "FERA YUNIAR",
+      "bonus": 924657
+    },
+    {
+      "nip": "175694",
+      "nama": "TIFANI HERAWATI",
+      "bonus": 924657
+    },
+    {
+      "nip": "175832",
+      "nama": "ASRIADI ASGAR",
+      "bonus": 924657
+    },
+    {
+      "nip": "175833",
+      "nama": "AZIZ MIFTAHUL FAUZI",
+      "bonus": 924657
+    },
+    {
+      "nip": "176140",
+      "nama": "WAHYU PERMANA",
+      "bonus": 924657
+    },
+    {
+      "nip": "176556",
+      "nama": "HERRY YUSWAN",
+      "bonus": 924657
+    },
+    {
+      "nip": "176649",
+      "nama": "PREDIANSYAH",
+      "bonus": 924657
+    },
+    {
+      "nip": "176651",
+      "nama": "NIA AULINA",
+      "bonus": 924657
+    },
+    {
+      "nip": "177063",
+      "nama": "NABILAH ADANI",
+      "bonus": 924657
+    },
+    {
+      "nip": "179029",
+      "nama": "YUDA ADITYA NUGRAHA",
+      "bonus": 924657
+    },
+    {
+      "nip": "181370",
+      "nama": "KAMILA INDAH PRATIWI",
+      "bonus": 924657
+    },
+    {
+      "nip": "181680",
+      "nama": "MAHSYA IZDIHAR",
+      "bonus": 924657
+    },
+    {
+      "nip": "182110",
+      "nama": "HAFIDZ ABDULLAH",
+      "bonus": 924657
+    },
+    {
+      "nip": "183731",
+      "nama": "SAEKHONI YAHYA",
+      "bonus": 924657
+    },
+    {
+      "nip": "186905",
+      "nama": "MUHAMMAD ZULKARNAIN",
+      "bonus": 924657
+    },
+    {
+      "nip": "187081",
+      "nama": "RONALDO PRATAMA",
+      "bonus": 924657
+    },
+    {
+      "nip": "192219",
+      "nama": "ATHALLA NAUFAL AL FARIDZ",
+      "bonus": 924657
+    },
+    {
+      "nip": "192340",
+      "nama": "SALSA BILAHNURYUDA",
+      "bonus": 924657
+    },
+    {
+      "nip": "192993",
+      "nama": "FAHREZA NUGROHO",
+      "bonus": 924657
+    },
+    {
+      "nip": "193310",
+      "nama": "RIFKI JULIAN",
+      "bonus": 924657
+    },
+    {
+      "nip": "193455",
+      "nama": "MAULANA MARIS",
+      "bonus": 924657
+    },
+    {
+      "nip": "193688",
+      "nama": "RUDI TRESNA",
+      "bonus": 924657
+    },
+    {
+      "nip": "194067",
+      "nama": "LUFITA RAMADHANY ZULKIFLY",
+      "bonus": 924657
+    },
+    {
+      "nip": "194644",
+      "nama": "GILANG RAMADHAN",
+      "bonus": 924657
+    },
+    {
+      "nip": "194849",
+      "nama": "AFGAN IBNU AZAIDAN",
+      "bonus": 924657
+    },
+    {
+      "nip": "195142",
+      "nama": "GANIS MAHARDIKA",
+      "bonus": 924657
+    },
+    {
+      "nip": "90861",
+      "nama": "ANDRI",
+      "bonus": 892067
+    },
+    {
+      "nip": "179965",
+      "nama": "MUHAMAD AGUNG",
+      "bonus": 873287
+    },
+    {
+      "nip": "184963",
+      "nama": "ADIT KURNIAWAN",
+      "bonus": 873287
+    },
+    {
+      "nip": "186986",
+      "nama": "HERDIANSYAH FARHAN TRI SAPUTRA",
+      "bonus": 873287
+    },
+    {
+      "nip": "192427",
+      "nama": "PARHAN ANDRIAN",
+      "bonus": 873287
+    },
+    {
+      "nip": "192992",
+      "nama": "ILYASA ALIFANSYACH",
+      "bonus": 873287
+    },
+    {
+      "nip": "193312",
+      "nama": "NAZWA SAFIRA",
+      "bonus": 873287
+    },
+    {
+      "nip": "94835",
+      "nama": "DADAN ROMANSAH",
+      "bonus": 830737
+    },
+    {
+      "nip": "97539",
+      "nama": "ELANG PERKASA.",
+      "bonus": 830737
+    },
+    {
+      "nip": "192623",
+      "nama": "JABANDI ARYA PRATAMA",
+      "bonus": 830737
+    },
+    {
+      "nip": "E03638",
+      "nama": "ALEK VANLENDER..",
+      "bonus": 830737
+    },
+    {
+      "nip": "100192",
+      "nama": "JAKA SATRIA FADLI",
+      "bonus": 823447
+    },
+    {
+      "nip": "195587",
+      "nama": "NUR ASARO SYAMSAH",
+      "bonus": 821917
+    },
+    {
+      "nip": "154251",
+      "nama": "FITRI SILPANI",
+      "bonus": 770548
+    },
+    {
+      "nip": "176142",
+      "nama": "ISHAM MUSTAFID",
+      "bonus": 770548
+    },
+    {
+      "nip": "176646",
+      "nama": "RIZKY FADHILLA",
+      "bonus": 770548
+    },
+    {
+      "nip": "178197",
+      "nama": "RYAN YULIANTO",
+      "bonus": 770548
+    },
+    {
+      "nip": "194353",
+      "nama": "INTAN AYU LARASATI",
+      "bonus": 719178
+    },
+    {
+      "nip": "194976",
+      "nama": "SYAMSUL HIBATULLAH",
+      "bonus": 719178
+    },
+    {
+      "nip": "197421",
+      "nama": "JESSICA MAHARANI",
+      "bonus": 719178
+    },
+    {
+      "nip": "110376",
+      "nama": "FEBIN EDWANSYAH",
+      "bonus": 667808
+    },
+    {
+      "nip": "111740",
+      "nama": "RETIANA AYUNING WARDAYA",
+      "bonus": 667808
+    },
+    {
+      "nip": "115570",
+      "nama": "NOVITA SARI",
+      "bonus": 667808
+    },
+    {
+      "nip": "119738",
+      "nama": "NANDA WARIZKA",
+      "bonus": 667808
+    },
+    {
+      "nip": "166968",
+      "nama": "MOHAMMAD RIZALY FAHMI AFANDI",
+      "bonus": 667808
+    },
+    {
+      "nip": "171999",
+      "nama": "INDAH LIANA SARI",
+      "bonus": 667808
+    },
+    {
+      "nip": "175981",
+      "nama": "FITRI RAMAYANTI",
+      "bonus": 667808
+    },
+    {
+      "nip": "176928",
+      "nama": "REPAN",
+      "bonus": 667808
+    },
+    {
+      "nip": "177065",
+      "nama": "VANNY ERIYANI",
+      "bonus": 667808
+    },
+    {
+      "nip": "177535",
+      "nama": "NUR LISTIANA",
+      "bonus": 667808
+    },
+    {
+      "nip": "180436",
+      "nama": "FIKRI MAULANA",
+      "bonus": 667808
+    },
+    {
+      "nip": "190793",
+      "nama": "ANDRI",
+      "bonus": 667808
+    },
+    {
+      "nip": "192303",
+      "nama": "AUDY ALIF PUTRA",
+      "bonus": 667808
+    },
+    {
+      "nip": "193309",
+      "nama": "WILFRIDA DWI APRIANA TURNIP",
+      "bonus": 667808
+    },
+    {
+      "nip": "137443",
+      "nama": "ULFAN ADITA PRATAMA",
+      "bonus": 616438
+    },
+    {
+      "nip": "171189",
+      "nama": "ABDURAHMAN WAHID",
+      "bonus": 616438
+    },
+    {
+      "nip": "175004",
+      "nama": "RAFLI ZUL AZHAR",
+      "bonus": 616438
+    },
+    {
+      "nip": "176138",
+      "nama": "AHMAD FADILA",
+      "bonus": 616438
+    },
+    {
+      "nip": "176728",
+      "nama": "NANDA SETIANA",
+      "bonus": 616438
+    },
+    {
+      "nip": "182995",
+      "nama": "RICO ARI SAPUTRA",
+      "bonus": 616438
+    },
+    {
+      "nip": "194975",
+      "nama": "DIVA NURFAUZIAH",
+      "bonus": 616438
+    },
+    {
+      "nip": "197422",
+      "nama": "ALYA TYA SAMANTA",
+      "bonus": 616438
+    },
+    {
+      "nip": "102885",
+      "nama": "SUKMA ANDIKA",
+      "bonus": 565068
+    },
+    {
+      "nip": "185701",
+      "nama": "DEDI ANGGARA",
+      "bonus": 565068
+    },
+    {
+      "nip": "94681",
+      "nama": "SAIPUDIN WIJAYA",
+      "bonus": 553665
+    },
+    {
+      "nip": "94836",
+      "nama": "SIGIT NOPIYANTO.",
+      "bonus": 553665
+    },
+    {
+      "nip": "95845",
+      "nama": "M. MACHMUD",
+      "bonus": 553665
+    },
+    {
+      "nip": "97542",
+      "nama": "HAFID ERSAD.",
+      "bonus": 553665
+    },
+    {
+      "nip": "98004",
+      "nama": "JAENAL ARIPIN",
+      "bonus": 553665
+    },
+    {
+      "nip": "103502",
+      "nama": "JAMALUDIN",
+      "bonus": 553665
+    },
+    {
+      "nip": "106510",
+      "nama": "BUDI MAULANA",
+      "bonus": 553665
+    },
+    {
+      "nip": "107466",
+      "nama": "SITI BADRIAH",
+      "bonus": 553665
+    },
+    {
+      "nip": "107469",
+      "nama": "MUHAMAD HAERUL ANWAR",
+      "bonus": 553665
+    },
+    {
+      "nip": "113130",
+      "nama": "WILLA ERISIANI ALSUNDRIA",
+      "bonus": 553665
+    },
+    {
+      "nip": "116797",
+      "nama": "SRI ANDINI",
+      "bonus": 553665
+    },
+    {
+      "nip": "118754",
+      "nama": "FAHRUL ROJI",
+      "bonus": 553665
+    },
+    {
+      "nip": "122145",
+      "nama": "HERMAWAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "125438",
+      "nama": "RISKA ADRIAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "127486",
+      "nama": "VENI SELLA",
+      "bonus": 553665
+    },
+    {
+      "nip": "144244",
+      "nama": "MAGDALENA EVI FANI",
+      "bonus": 553665
+    },
+    {
+      "nip": "152459",
+      "nama": "ARIEF RACHMAN KOTHO",
+      "bonus": 553665
+    },
+    {
+      "nip": "164546",
+      "nama": "TAUFIK RAHMAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "164746",
+      "nama": "HUSNUL KHOTIMAH",
+      "bonus": 553665
+    },
+    {
+      "nip": "164820",
+      "nama": "DWI ARI ARDIYANTO",
+      "bonus": 553665
+    },
+    {
+      "nip": "165520",
+      "nama": "SHEILA AMELIA",
+      "bonus": 553665
+    },
+    {
+      "nip": "167677",
+      "nama": "MUHAMMAD FARIZ",
+      "bonus": 553665
+    },
+    {
+      "nip": "169787",
+      "nama": "AZIZAH FAUZIAH",
+      "bonus": 553665
+    },
+    {
+      "nip": "172530",
+      "nama": "NELVI YANTI",
+      "bonus": 553665
+    },
+    {
+      "nip": "176338",
+      "nama": "HAERUDIN",
+      "bonus": 553665
+    },
+    {
+      "nip": "177464",
+      "nama": "RIZKY SETIAWAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "179235",
+      "nama": "MUCHLIS",
+      "bonus": 553665
+    },
+    {
+      "nip": "179967",
+      "nama": "ALI SAID",
+      "bonus": 553665
+    },
+    {
+      "nip": "181372",
+      "nama": "HERIYAWAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "184454",
+      "nama": "SULAEMAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "186718",
+      "nama": "FARAS AL RIZAL FALAH",
+      "bonus": 553665
+    },
+    {
+      "nip": "196694",
+      "nama": "BAMBANG ASMOROSANTO",
+      "bonus": 553665
+    },
+    {
+      "nip": "196731",
+      "nama": "ANANG DWYAN ROMADHONI",
+      "bonus": 553665
+    },
+    {
+      "nip": "196745",
+      "nama": "HANDOKO",
+      "bonus": 553665
+    },
+    {
+      "nip": "E01357",
+      "nama": "JAENUDIN FIJAY",
+      "bonus": 553665
+    },
+    {
+      "nip": "E01358",
+      "nama": "AHMAD WANOZHA",
+      "bonus": 553665
+    },
+    {
+      "nip": "E01479",
+      "nama": "MUHAMAD TOYIB .",
+      "bonus": 553665
+    },
+    {
+      "nip": "E01684",
+      "nama": "MUH SYAUDI.",
+      "bonus": 553665
+    },
+    {
+      "nip": "E01687",
+      "nama": "SUHAEDI.",
+      "bonus": 553665
+    },
+    {
+      "nip": "E02343",
+      "nama": "ANTON AMWARI...",
+      "bonus": 553665
+    },
+    {
+      "nip": "E02878",
+      "nama": "IMAN CAHYA NUGRAHA.",
+      "bonus": 553665
+    },
+    {
+      "nip": "E03063",
+      "nama": "SYARIFUDIN.",
+      "bonus": 553665
+    },
+    {
+      "nip": "E03064",
+      "nama": "LANGGENG WIDODO.",
+      "bonus": 553665
+    },
+    {
+      "nip": "E03067",
+      "nama": "ROBI ANDESTA",
+      "bonus": 553665
+    },
+    {
+      "nip": "E03642",
+      "nama": "ARIF USMAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "E04814",
+      "nama": "SUKOHARJO",
+      "bonus": 553665
+    },
+    {
+      "nip": "E04823",
+      "nama": "FERDY SYAWAL",
+      "bonus": 553665
+    },
+    {
+      "nip": "E05645",
+      "nama": "RAMLI KURNIA",
+      "bonus": 553665
+    },
+    {
+      "nip": "E05832",
+      "nama": "MUHAMMAD HUSIN",
+      "bonus": 553665
+    },
+    {
+      "nip": "E05833",
+      "nama": "AHMAD NURKARIM",
+      "bonus": 553665
+    },
+    {
+      "nip": "E06557",
+      "nama": "ENDANG",
+      "bonus": 553665
+    },
+    {
+      "nip": "E06609",
+      "nama": "AKWAN BUDIMAN",
+      "bonus": 553665
+    },
+    {
+      "nip": "96806",
+      "nama": "HAYANIH.",
+      "bonus": 548965
+    },
+    {
+      "nip": "99278",
+      "nama": "NASRUL LATIF",
+      "bonus": 548965
+    },
+    {
+      "nip": "101848",
+      "nama": "M. YURIYANSYAH",
+      "bonus": 548965
+    },
+    {
+      "nip": "101854",
+      "nama": "SIGIT SANJAYA",
+      "bonus": 548965
+    },
+    {
+      "nip": "103196",
+      "nama": "ONKY RAMDHANI.",
+      "bonus": 548965
+    },
+    {
+      "nip": "131184",
+      "nama": "DEDE ABDUL HAMID",
+      "bonus": 548965
+    },
+    {
+      "nip": "122727",
+      "nama": "RETNO BUDI RIANTO",
+      "bonus": 513698
+    },
+    {
+      "nip": "193686",
+      "nama": "SELVIA WULANDARI",
+      "bonus": 513698
+    },
+    {
+      "nip": "94840",
+      "nama": "LUKMANUL HAKIM.",
+      "bonus": 462329
+    },
+    {
+      "nip": "105269",
+      "nama": "AHMAD SOBANDI",
+      "bonus": 410959
+    },
+    {
+      "nip": "175495",
+      "nama": "TONI HIDAYAT",
+      "bonus": 410959
+    },
+    {
+      "nip": "172644",
+      "nama": "SADAM AL FAYED",
+      "bonus": 359589
+    },
+    {
+      "nip": "173763",
+      "nama": "FERHANS IQBAL HERDIANSYAH",
+      "bonus": 359589
+    },
+    {
+      "nip": "130459",
+      "nama": "ADEI VAHLEVIE",
+      "bonus": 256849
+    },
+    {
+      "nip": "160190",
+      "nama": "MUHAMMAD CHOIRUL",
+      "bonus": 256849
+    },
+    {
+      "nip": "183138",
+      "nama": "ALFIAN KRISNA BAYU GP",
+      "bonus": 256849
+    },
+    {
+      "nip": "190020",
+      "nama": "WAHYU BUKHORI",
+      "bonus": 256849
+    },
+    {
+      "nip": "142106",
+      "nama": "FAISAL RAMADHAN",
+      "bonus": 102740
+    },
+    {
+      "nip": "143021",
+      "nama": "NUKY SEPTIAN CHRISANDY",
+      "bonus": 102740
+    },
+    {
+      "nip": "183728",
+      "nama": "MUHAMAD DAFFA ALDIAN SYAHPUTRA",
+      "bonus": 102740
+    },
+    {
+      "nip": "192426",
+      "nama": "RYAN TRI PRASTYO",
+      "bonus": 51370
+    }
+  ],
+  "fetchedAt": "2026-09-18T10:07:50.211Z"
+}

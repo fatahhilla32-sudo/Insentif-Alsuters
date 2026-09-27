@@ -1,0 +1,8 @@
+{
+  "name": "Portal Insentif Sales",
+  "description": "Portal rekapitulasi insentif sales berdasarkan NIP untuk sheet INSENTIF AGUSTUS dan integrasi sheet Bonus Store secara dinamis, lengkap dengan login khusus manajer (mgr35), rekapitulasi akumulasi seluruh sales, dan slip gaji.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
